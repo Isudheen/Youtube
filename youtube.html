@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <a href="https://www.youtube.com/">
+          <img class="youtube-logo" src="icons/youtube-logo.svg" />
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="search" />
+
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with you voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img
+          class="current-user-picture"
+          src="channel-pictures/channel-1.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/">
+          <img src="icons/home.svg" />
+        </a>
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/feed/explore">
+          <img src="icons/explore.svg" />
+        </a>
+        <div>Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/hashtag/shorts">
+          <img src="icons/shorts.png" />
+        </a>
+        <div>Shorts</div>
+      </div>
+
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/feed/subscriptions">
+          <img src="icons/subscriptions.svg" />
+        </a>
+        <div>Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/feed/library">
+          <img src="icons/library.svg" />
+        </a>
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="categories">
+      <section class="category-section">
+        <button class="category active">All</button>
+        <button class="category">Music</button
+        ><button class="category">Live</button
+        ><button class="category">Mixes</button
+        ><button class="category">Comedy</button
+        ><button class="category">Computer Programming</button
+        ><button class="category">Samsung</button
+        ><button class="category">Gadgets</button
+        ><button class="category">Gaming</button
+        ><button class="category">Filmi</button
+        ><button class="category">Friendship</button
+        ><button class="category">Trailers</button
+        ><button class="category">Driving</button
+        ><button class="category">Physics</button> ><button class="category">
+          Bowling(cricket)
+        </button>
+      </section>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Jb88eui8SqQ">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+          </a>
+          <div class="video-time">14:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Nothing Phone (1) Review: Seeing Through the Hype!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">4.5M views &#183; 4weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=T7aSI-E1fCE">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
+          </a>
+          <div class="video-time">8:03</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Why Most People FAIL to Learn Programming</p>
+            <p class="video-author">Aaron Jack</p>
+            <p class="video-stats">744K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=2TqOmtTAMRY">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" />
+          </a>
+          <div class="video-time">18:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-3.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              I bought the STRANGEST TECH on the Internet.
+            </p>
+            <p class="video-author">Mrwhosetheboss</p>
+            <p class="video-stats">3.1M views &#183; 5 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=J6Ga4wciA2k">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" />
+          </a>
+          <div class="video-time">25:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-4.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Somehow THIS Wish.com Gaming PC is WORSE!</p>
+            <p class="video-author">Linus Tech Tips</p>
+            <p class="video-stats">1.3M views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=3KZYmACVmYQ">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" />
+          </a>
+          <div class="video-time">18:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">5 Unique Gadgets Under $30</p>
+            <p class="video-author">Unbox Therapy</p>
+            <p class="video-stats">1.4M views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/yFeWCYdrz2o">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
+          </a>
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              5 simple rules to make Rs 1 Crore in 3 years
+            </p>
+            <p class="video-author">Akshat Shrivastava</p>
+            <p class="video-stats">437K views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=t6Y9hcvdArw">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp" />
+          </a>
+          <div class="video-time">21:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-7.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              RTX 3080 Ti | Marvel’s Spider-Man Remastered - 1080p, 1440p, 4K,
+              8K + DLSS & RT
+            </p>
+            <p class="video-author">zWORMz Gaming</p>
+            <p class="video-stats">15K views &#183; 8 hours ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=cG2WZXPhcNQ">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp" />
+          </a>
+          <div class="video-time">8:57</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-8.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Once Upon A Time Video | VIKRAM | Kamal Haasan | Anirudh
+              Ravichander | Lokesh Kanagaraj
+            </p>
+            <p class="video-author">Sony Music South</p>
+            <p class="video-stats">96K views &#183; 1 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=gqYaqBVT5vM">
+            <img class="thumbnail" src="thumbnails/thumbail-9.webp" />
+          </a>
+          <div class="video-time">8:04</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-9.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">M2 MacBook Air Review - Needs More Air</p>
+            <p class="video-author">Dave2D</p>
+            <p class="video-stats">1M views &#183; 4 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Z_8F_jazYjc">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp" />
+          </a>
+          <div class="video-time">10:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-10.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How India's Space Program Humiliates NASA's Budget
+            </p>
+            <p class="video-author">Logically Answered</p>
+            <p class="video-stats">1.7M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=_NjyWnVG9kI">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp" />
+          </a>
+          <div class="video-time">38:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-11.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Forged in Fire: INDIA'S DEADLIEST WEAPONS (PART 2)
+            </p>
+            <p class="video-author">Forged in Fire</p>
+            <p class="video-stats">2M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=qOK25zhnU1Q">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp" />
+          </a>
+          <div class="video-time">6:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-12.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              LISTEN TO THIS EVERYDAY AND CHANGE YOUR LIFE - Powerful
+              Motivational Speech 2022 by Billy Alsbrooks
+            </p>
+            <p class="video-author">AlexKaltsMotivation</p>
+            <p class="video-stats">11K views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
